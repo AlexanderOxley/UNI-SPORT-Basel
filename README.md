@@ -15,3 +15,5 @@ As of 16.9.19, you still need
 2. MacOS 10.15 Catalina beta
 3. XCode 11 GM
 4. <i>(optional)</i> iOS 13 beta to preview on device
+
+Clone and open in XCode
