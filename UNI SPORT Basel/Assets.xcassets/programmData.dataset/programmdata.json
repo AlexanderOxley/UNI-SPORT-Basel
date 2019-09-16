@@ -1,0 +1,47 @@
+[
+  {
+    "name" : "Kickboxen",
+    "day" : "Montag",
+    "time" : "12:15 - 13:00",
+    "ort" : "Boxkeller, Kasernenstrasse 25, Basel",
+    "raum" : null,
+    "leiter" : "M. Peláez",
+    "id" : 1
+  },
+  {
+    "name" : "bodyART",
+    "day" : "Montag",
+    "time" : "12:30 - 13:30",
+    "ort" : "Leonhard-Schulhaus, Leonhardstrasse 15, Basel",
+    "raum" : "Raum Unisport",
+    "leiter" : "M. Löhr",
+    "id" : 2
+  },
+  {
+    "name" : "BODYPUMP",
+    "day" : "Montag",
+    "time" : "12:30 - 13:30",
+    "ort" : "Leonhard-Schulhaus, Leonhardstrasse 15, Basel",
+    "raum" : "Halle 4",
+    "leiter" : "S. Bénac / S. Stäubli",
+    "id" : 3
+  },
+  {
+    "name" : "Body Toning",
+    "day" : "Montag",
+    "time" : "12:30 - 13:30",
+    "ort" : "Leonhard-Schulhaus, Leonhardstrasse 15, Basel",
+    "raum" : "Halle 3",
+    "leiter" : "F. Graf",
+    "id" : 4
+  },
+  {
+    "name" : "Pilates Forgeschrittene",
+    "day" : "Montag",
+    "time" : "17:45 - 18:45",
+    "ort" : "Leonhard-Schulhaus, Leonhardstrasse 15, Basel",
+    "raum" : "Raum 123",
+    "leiter" : "R. Earle"
+    "id" : 5
+  }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "name" : "Kickboxen",
+        "category":"Kampfsport und Kampfkunst",
+        "session" : [{
+                "day" : "Monday",
+                "starttime" : "12:15",
+                "endtime" : "13:00"
+            }],
+        "ort" : "Boxkeller, Kasernenstrasse 25, Basel",
+        "raum" : "n/a",
+        "coordinates" : {
+            "longitude" : 7.5912,
+            "latitude" : 47.5630
+        },
+        "leiter" : "M. Peláez",
+        "id" : 1,
+        "imageName" : "kickboxing",
+        "isFeatured": true,
+        "isFavorite" : false
+    },
+    {
+        "name" : "bodyART",
+        "category": "Body und Mind",
+        "session" : [{
+                "day" : "Monday",
+                "starttime" : "12:15",
+                "endtime" : "13:30"
+            }],
+        "ort" : "Leonhard-Schulhaus, Leonhardstrasse 15, Basel",
+        "raum" : "Raum Unisport",
+        "coordinates" : {
+            "longitude" : 7.5864,
+            "latitude" : 47.5544
+        },
+        "leiter" : "M. Löhr",
+        "id" : 2,
+        "imageName" : "bodyart",
+        "isFeatured": false,
+        "isFavorite" : false
+    },
+    {
+        "name" : "BODYPUMP",
+        "category": "Fitness",
+        "session" : [{
+                "day" : "Monday",
+                "starttime" : "12:30",
+                "endtime" : "13:30"
+            }],
+        "ort" : "Leonhard-Schulhaus, Leonhardstrasse 15, Basel",
+        "raum" : "Halle 4",
+        "coordinates" : {
+            "longitude" : 7.5864,
+            "latitude" : 47.5544
+        },
+        "leiter" : "S. Bénac / S. Stäubli",
+        "id" : 3,
+        "imageName" : "bodypump",
+        "isFeatured": false,
+        "isFavorite" : false
+    },
+    {
+        "name" : "Body Toning",
+        "category": "Fitness",
+        "session" :
+            [{
+                "day" : "Monday",
+                "starttime" : "12:30",
+                "endtime" : "13:30"
+            }],
+        "ort" : "Leonhard-Schulhaus, Leonhardstrasse 15, Basel",
+        "raum" : "Halle 3",
+        "coordinates" : {
+            "longitude" : 7.5864,
+            "latitude" : 47.5544
+        },
+        "leiter" : "F. Graf",
+        "id" : 4,
+        "imageName" : "bodytoning",
+        "isFeatured": false,
+        "isFavorite" : false
+    },
+    {
+        "name" : "Pilates Forgeschrittene",
+        "category": "Body und Mind",
+        "session" :[{
+                "day" : "Monday",
+                "starttime" : "17:45",
+                "endtime" : "18:45"
+            }],
+        "ort" : "Huber Wiedemann Schule AG, Bewegung und Gesundheit, Eulerstrasse 55, Basel",
+        "raum" : "Raum 123",
+        "coordinates" : {
+            "longitude" : 7.5787,
+            "latitude" : 47.5562
+        },
+        "leiter" : "R. Earle",
+        "id" : 5,
+        "imageName" : "pilates",
+        "isFeatured": false,
+        "isFavorite" : false
+    }
+]

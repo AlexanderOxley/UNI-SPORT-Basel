@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA78E0F822DBE3B0001B6C56 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78E0F722DBE3B0001B6C56 /* CircleImage.swift */; };
+		FA78E0FE22DBE3D3001B6C56 /* bodypump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA78E0F922DBE3D3001B6C56 /* bodypump.jpg */; };
+		FA78E0FF22DBE3D3001B6C56 /* bodytoning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA78E0FA22DBE3D3001B6C56 /* bodytoning.jpg */; };
+		FA78E10022DBE3D3001B6C56 /* bodyart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA78E0FB22DBE3D3001B6C56 /* bodyart.jpg */; };
+		FA78E10122DBE3D3001B6C56 /* kickboxing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA78E0FC22DBE3D3001B6C56 /* kickboxing.jpg */; };
+		FA78E10222DBE3D3001B6C56 /* pilates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA78E0FD22DBE3D3001B6C56 /* pilates.jpg */; };
+		FA78E10422DBEA92001B6C56 /* ProgrammRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78E10322DBEA92001B6C56 /* ProgrammRow.swift */; };
+		FA78E10622DBEB3A001B6C56 /* ProgrammList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78E10522DBEB3A001B6C56 /* ProgrammList.swift */; };
+		FA7FD4AD22DBB2370080D9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FD4AC22DBB2370080D9D3 /* AppDelegate.swift */; };
+		FA7FD4AF22DBB2370080D9D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FD4AE22DBB2370080D9D3 /* SceneDelegate.swift */; };
+		FA7FD4B622DBB2390080D9D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7FD4B522DBB2390080D9D3 /* Preview Assets.xcassets */; };
+		FA7FD4B922DBB2390080D9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7FD4B722DBB2390080D9D3 /* LaunchScreen.storyboard */; };
+		FA7FD4C422DBB2390080D9D3 /* UNI_SPORT_BaselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FD4C322DBB2390080D9D3 /* UNI_SPORT_BaselTests.swift */; };
+		FA7FD4CF22DBB2390080D9D3 /* UNI_SPORT_BaselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FD4CE22DBB2390080D9D3 /* UNI_SPORT_BaselUITests.swift */; };
+		FA7FD4DD22DBB9EA0080D9D3 /* ProgrammDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FD4DC22DBB9EA0080D9D3 /* ProgrammDetail.swift */; };
+		FA7FD4DF22DBBDA50080D9D3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FD4DE22DBBDA50080D9D3 /* MapView.swift */; };
+		FA7FD4E122DBBE4C0080D9D3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FD4E022DBBE4C0080D9D3 /* Data.swift */; };
+		FA7FD4E322DBBED90080D9D3 /* Programm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FD4E222DBBED90080D9D3 /* Programm.swift */; };
+		FA8E8ADA22DBCB3C00E5F8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8E8AD922DBCB3C00E5F8E7 /* Assets.xcassets */; };
+		FA8E8ADC22DBCCDC00E5F8E7 /* programmData.json in Resources */ = {isa = PBXBuildFile; fileRef = FA8E8ADB22DBCCDC00E5F8E7 /* programmData.json */; };
+		FA8FE12B22EB3095000F9324 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FE12A22EB3095000F9324 /* UserData.swift */; };
+		FA8FE12F22EB40CF000F9324 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FE12E22EB40CF000F9324 /* CategoryRow.swift */; };
+		FA8FE13122EB4229000F9324 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FE13022EB4229000F9324 /* CategoryHome.swift */; };
+		FA8FE16F22EB586C000F9324 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FE16E22EB586C000F9324 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7FD4C022DBB2390080D9D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7FD4A122DBB2370080D9D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7FD4A822DBB2370080D9D3;
+			remoteInfo = "UNI SPORT Basel";
+		};
+		FA7FD4CB22DBB2390080D9D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7FD4A122DBB2370080D9D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7FD4A822DBB2370080D9D3;
+			remoteInfo = "UNI SPORT Basel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0252B222DBFB80006AEFD6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FA78E0F722DBE3B0001B6C56 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		FA78E0F922DBE3D3001B6C56 /* bodypump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bodypump.jpg; sourceTree = "<group>"; };
+		FA78E0FA22DBE3D3001B6C56 /* bodytoning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bodytoning.jpg; sourceTree = "<group>"; };
+		FA78E0FB22DBE3D3001B6C56 /* bodyart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bodyart.jpg; sourceTree = "<group>"; };
+		FA78E0FC22DBE3D3001B6C56 /* kickboxing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kickboxing.jpg; sourceTree = "<group>"; };
+		FA78E0FD22DBE3D3001B6C56 /* pilates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pilates.jpg; sourceTree = "<group>"; };
+		FA78E10322DBEA92001B6C56 /* ProgrammRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammRow.swift; sourceTree = "<group>"; };
+		FA78E10522DBEB3A001B6C56 /* ProgrammList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammList.swift; sourceTree = "<group>"; };
+		FA7FD4A922DBB2370080D9D3 /* UNI SPORT Basel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UNI SPORT Basel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7FD4AC22DBB2370080D9D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7FD4AE22DBB2370080D9D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA7FD4B522DBB2390080D9D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA7FD4B822DBB2390080D9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA7FD4BA22DBB2390080D9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7FD4BF22DBB2390080D9D3 /* UNI SPORT BaselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UNI SPORT BaselTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7FD4C322DBB2390080D9D3 /* UNI_SPORT_BaselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNI_SPORT_BaselTests.swift; sourceTree = "<group>"; };
+		FA7FD4C522DBB2390080D9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7FD4CA22DBB2390080D9D3 /* UNI SPORT BaselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UNI SPORT BaselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7FD4CE22DBB2390080D9D3 /* UNI_SPORT_BaselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNI_SPORT_BaselUITests.swift; sourceTree = "<group>"; };
+		FA7FD4D022DBB2390080D9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7FD4DC22DBB9EA0080D9D3 /* ProgrammDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammDetail.swift; sourceTree = "<group>"; };
+		FA7FD4DE22DBBDA50080D9D3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FA7FD4E022DBBE4C0080D9D3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FA7FD4E222DBBED90080D9D3 /* Programm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programm.swift; sourceTree = "<group>"; };
+		FA8E8AD922DBCB3C00E5F8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8E8ADB22DBCCDC00E5F8E7 /* programmData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = programmData.json; sourceTree = "<group>"; };
+		FA8FE12A22EB3095000F9324 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = ../UserData.swift; sourceTree = "<group>"; };
+		FA8FE12E22EB40CF000F9324 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryRow.swift; path = "../../../../../System/Volumes/Data/Users/alex/Desktop/UNI SPORT Basel/UNI SPORT Basel/CategoryRow.swift"; sourceTree = "<group>"; };
+		FA8FE13022EB4229000F9324 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryHome.swift; path = "../../../../../System/Volumes/Data/Users/alex/Desktop/UNI SPORT Basel/UNI SPORT Basel/CategoryHome.swift"; sourceTree = "<group>"; };
+		FA8FE16E22EB586C000F9324 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../../System/Volumes/Data/Users/alex/Desktop/UNI SPORT Basel/UNI SPORT Basel/ContentView.swift"; sourceTree = "<group>"; };
+		FAEAEE8722FD817C001C2456 /* UNI SPORT Basel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "UNI SPORT Basel.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7FD4A622DBB2370080D9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7FD4BC22DBB2390080D9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7FD4C722DBB2390080D9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0252B122DBFB80006AEFD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA0252B222DBFB80006AEFD6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA32A59722DBC88300FE65DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA7FD4E022DBBE4C0080D9D3 /* Data.swift */,
+				FA7FD4E222DBBED90080D9D3 /* Programm.swift */,
+				FA8FE12A22EB3095000F9324 /* UserData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA32A59822DBC89A00FE65DD /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA78E0F722DBE3B0001B6C56 /* CircleImage.swift */,
+				FA7FD4DE22DBBDA50080D9D3 /* MapView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		FA32A59B22DBC8FB00FE65DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA8E8ADB22DBCCDC00E5F8E7 /* programmData.json */,
+				FA78E0FB22DBE3D3001B6C56 /* bodyart.jpg */,
+				FA78E0F922DBE3D3001B6C56 /* bodypump.jpg */,
+				FA78E0FA22DBE3D3001B6C56 /* bodytoning.jpg */,
+				FA78E0FC22DBE3D3001B6C56 /* kickboxing.jpg */,
+				FA78E0FD22DBE3D3001B6C56 /* pilates.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA7FD4A022DBB2370080D9D3 = {
+			isa = PBXGroup;
+			children = (
+				FA7FD4AB22DBB2370080D9D3 /* UNI SPORT Basel */,
+				FA7FD4C222DBB2390080D9D3 /* UNI SPORT BaselTests */,
+				FA7FD4CD22DBB2390080D9D3 /* UNI SPORT BaselUITests */,
+				FA7FD4AA22DBB2370080D9D3 /* Products */,
+				FA0252B122DBFB80006AEFD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7FD4AA22DBB2370080D9D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7FD4A922DBB2370080D9D3 /* UNI SPORT Basel.app */,
+				FA7FD4BF22DBB2390080D9D3 /* UNI SPORT BaselTests.xctest */,
+				FA7FD4CA22DBB2390080D9D3 /* UNI SPORT BaselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7FD4AB22DBB2370080D9D3 /* UNI SPORT Basel */ = {
+			isa = PBXGroup;
+			children = (
+				FAEAEE8722FD817C001C2456 /* UNI SPORT Basel.entitlements */,
+				FA32A59722DBC88300FE65DD /* Models */,
+				FA78E10522DBEB3A001B6C56 /* ProgrammList.swift */,
+				FA7FD4DC22DBB9EA0080D9D3 /* ProgrammDetail.swift */,
+				FA78E10322DBEA92001B6C56 /* ProgrammRow.swift */,
+				FA8FE12E22EB40CF000F9324 /* CategoryRow.swift */,
+				FA8FE13022EB4229000F9324 /* CategoryHome.swift */,
+				FA8FE16E22EB586C000F9324 /* ContentView.swift */,
+				FA7FD4AC22DBB2370080D9D3 /* AppDelegate.swift */,
+				FA7FD4AE22DBB2370080D9D3 /* SceneDelegate.swift */,
+				FA7FD4B722DBB2390080D9D3 /* LaunchScreen.storyboard */,
+				FA7FD4BA22DBB2390080D9D3 /* Info.plist */,
+				FA8E8AD922DBCB3C00E5F8E7 /* Assets.xcassets */,
+				FA32A59822DBC89A00FE65DD /* Supporting Views */,
+				FA32A59B22DBC8FB00FE65DD /* Resources */,
+				FA7FD4B422DBB2390080D9D3 /* Preview Content */,
+			);
+			path = "UNI SPORT Basel";
+			sourceTree = "<group>";
+		};
+		FA7FD4B422DBB2390080D9D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA7FD4B522DBB2390080D9D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA7FD4C222DBB2390080D9D3 /* UNI SPORT BaselTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7FD4C322DBB2390080D9D3 /* UNI_SPORT_BaselTests.swift */,
+				FA7FD4C522DBB2390080D9D3 /* Info.plist */,
+			);
+			path = "UNI SPORT BaselTests";
+			sourceTree = "<group>";
+		};
+		FA7FD4CD22DBB2390080D9D3 /* UNI SPORT BaselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7FD4CE22DBB2390080D9D3 /* UNI_SPORT_BaselUITests.swift */,
+				FA7FD4D022DBB2390080D9D3 /* Info.plist */,
+			);
+			path = "UNI SPORT BaselUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7FD4A822DBB2370080D9D3 /* UNI SPORT Basel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7FD4D322DBB2390080D9D3 /* Build configuration list for PBXNativeTarget "UNI SPORT Basel" */;
+			buildPhases = (
+				FA7FD4A522DBB2370080D9D3 /* Sources */,
+				FA7FD4A622DBB2370080D9D3 /* Frameworks */,
+				FA7FD4A722DBB2370080D9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UNI SPORT Basel";
+			productName = "UNI SPORT Basel";
+			productReference = FA7FD4A922DBB2370080D9D3 /* UNI SPORT Basel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7FD4BE22DBB2390080D9D3 /* UNI SPORT BaselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7FD4D622DBB2390080D9D3 /* Build configuration list for PBXNativeTarget "UNI SPORT BaselTests" */;
+			buildPhases = (
+				FA7FD4BB22DBB2390080D9D3 /* Sources */,
+				FA7FD4BC22DBB2390080D9D3 /* Frameworks */,
+				FA7FD4BD22DBB2390080D9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7FD4C122DBB2390080D9D3 /* PBXTargetDependency */,
+			);
+			name = "UNI SPORT BaselTests";
+			productName = "UNI SPORT BaselTests";
+			productReference = FA7FD4BF22DBB2390080D9D3 /* UNI SPORT BaselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA7FD4C922DBB2390080D9D3 /* UNI SPORT BaselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7FD4D922DBB2390080D9D3 /* Build configuration list for PBXNativeTarget "UNI SPORT BaselUITests" */;
+			buildPhases = (
+				FA7FD4C622DBB2390080D9D3 /* Sources */,
+				FA7FD4C722DBB2390080D9D3 /* Frameworks */,
+				FA7FD4C822DBB2390080D9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7FD4CC22DBB2390080D9D3 /* PBXTargetDependency */,
+			);
+			name = "UNI SPORT BaselUITests";
+			productName = "UNI SPORT BaselUITests";
+			productReference = FA7FD4CA22DBB2390080D9D3 /* UNI SPORT BaselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7FD4A122DBB2370080D9D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Alexander Oxley";
+				TargetAttributes = {
+					FA7FD4A822DBB2370080D9D3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					FA7FD4BE22DBB2390080D9D3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FA7FD4A822DBB2370080D9D3;
+					};
+					FA7FD4C922DBB2390080D9D3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FA7FD4A822DBB2370080D9D3;
+					};
+				};
+			};
+			buildConfigurationList = FA7FD4A422DBB2370080D9D3 /* Build configuration list for PBXProject "UNI SPORT Basel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7FD4A022DBB2370080D9D3;
+			productRefGroup = FA7FD4AA22DBB2370080D9D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7FD4A822DBB2370080D9D3 /* UNI SPORT Basel */,
+				FA7FD4BE22DBB2390080D9D3 /* UNI SPORT BaselTests */,
+				FA7FD4C922DBB2390080D9D3 /* UNI SPORT BaselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7FD4A722DBB2370080D9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8E8ADC22DBCCDC00E5F8E7 /* programmData.json in Resources */,
+				FA7FD4B922DBB2390080D9D3 /* LaunchScreen.storyboard in Resources */,
+				FA8E8ADA22DBCB3C00E5F8E7 /* Assets.xcassets in Resources */,
+				FA78E0FE22DBE3D3001B6C56 /* bodypump.jpg in Resources */,
+				FA78E10022DBE3D3001B6C56 /* bodyart.jpg in Resources */,
+				FA78E0FF22DBE3D3001B6C56 /* bodytoning.jpg in Resources */,
+				FA78E10122DBE3D3001B6C56 /* kickboxing.jpg in Resources */,
+				FA78E10222DBE3D3001B6C56 /* pilates.jpg in Resources */,
+				FA7FD4B622DBB2390080D9D3 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7FD4BD22DBB2390080D9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7FD4C822DBB2390080D9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7FD4A522DBB2370080D9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8FE12F22EB40CF000F9324 /* CategoryRow.swift in Sources */,
+				FA7FD4AD22DBB2370080D9D3 /* AppDelegate.swift in Sources */,
+				FA78E0F822DBE3B0001B6C56 /* CircleImage.swift in Sources */,
+				FA7FD4E122DBBE4C0080D9D3 /* Data.swift in Sources */,
+				FA7FD4E322DBBED90080D9D3 /* Programm.swift in Sources */,
+				FA78E10622DBEB3A001B6C56 /* ProgrammList.swift in Sources */,
+				FA8FE16F22EB586C000F9324 /* ContentView.swift in Sources */,
+				FA8FE12B22EB3095000F9324 /* UserData.swift in Sources */,
+				FA7FD4AF22DBB2370080D9D3 /* SceneDelegate.swift in Sources */,
+				FA7FD4DF22DBBDA50080D9D3 /* MapView.swift in Sources */,
+				FA7FD4DD22DBB9EA0080D9D3 /* ProgrammDetail.swift in Sources */,
+				FA8FE13122EB4229000F9324 /* CategoryHome.swift in Sources */,
+				FA78E10422DBEA92001B6C56 /* ProgrammRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7FD4BB22DBB2390080D9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7FD4C422DBB2390080D9D3 /* UNI_SPORT_BaselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7FD4C622DBB2390080D9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7FD4CF22DBB2390080D9D3 /* UNI_SPORT_BaselUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7FD4C122DBB2390080D9D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7FD4A822DBB2370080D9D3 /* UNI SPORT Basel */;
+			targetProxy = FA7FD4C022DBB2390080D9D3 /* PBXContainerItemProxy */;
+		};
+		FA7FD4CC22DBB2390080D9D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7FD4A822DBB2370080D9D3 /* UNI SPORT Basel */;
+			targetProxy = FA7FD4CB22DBB2390080D9D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7FD4B722DBB2390080D9D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7FD4B822DBB2390080D9D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7FD4D122DBB2390080D9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA7FD4D222DBB2390080D9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7FD4D422DBB2390080D9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "UNI SPORT Basel/UNI SPORT Basel.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"UNI SPORT Basel\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = 3NA6QG65K7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "UNI SPORT Basel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexanderoxley.UNI-SPORT-Basel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA7FD4D522DBB2390080D9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "UNI SPORT Basel/UNI SPORT Basel.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"UNI SPORT Basel\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = 3NA6QG65K7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "UNI SPORT Basel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexanderoxley.UNI-SPORT-Basel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA7FD4D722DBB2390080D9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NA6QG65K7;
+				INFOPLIST_FILE = "UNI SPORT BaselTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexanderoxley.UNI-SPORT-BaselTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UNI SPORT Basel.app/UNI SPORT Basel";
+			};
+			name = Debug;
+		};
+		FA7FD4D822DBB2390080D9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NA6QG65K7;
+				INFOPLIST_FILE = "UNI SPORT BaselTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexanderoxley.UNI-SPORT-BaselTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UNI SPORT Basel.app/UNI SPORT Basel";
+			};
+			name = Release;
+		};
+		FA7FD4DA22DBB2390080D9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NA6QG65K7;
+				INFOPLIST_FILE = "UNI SPORT BaselUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexanderoxley.UNI-SPORT-BaselUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UNI SPORT Basel";
+			};
+			name = Debug;
+		};
+		FA7FD4DB22DBB2390080D9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NA6QG65K7;
+				INFOPLIST_FILE = "UNI SPORT BaselUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexanderoxley.UNI-SPORT-BaselUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UNI SPORT Basel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7FD4A422DBB2370080D9D3 /* Build configuration list for PBXProject "UNI SPORT Basel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7FD4D122DBB2390080D9D3 /* Debug */,
+				FA7FD4D222DBB2390080D9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7FD4D322DBB2390080D9D3 /* Build configuration list for PBXNativeTarget "UNI SPORT Basel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7FD4D422DBB2390080D9D3 /* Debug */,
+				FA7FD4D522DBB2390080D9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7FD4D622DBB2390080D9D3 /* Build configuration list for PBXNativeTarget "UNI SPORT BaselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7FD4D722DBB2390080D9D3 /* Debug */,
+				FA7FD4D822DBB2390080D9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7FD4D922DBB2390080D9D3 /* Build configuration list for PBXNativeTarget "UNI SPORT BaselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7FD4DA22DBB2390080D9D3 /* Debug */,
+				FA7FD4DB22DBB2390080D9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7FD4A122DBB2370080D9D3 /* Project object */;
+}
